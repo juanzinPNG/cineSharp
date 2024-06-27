@@ -1,0 +1,1 @@
+//Insira as funçoes globais
