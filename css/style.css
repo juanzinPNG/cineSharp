@@ -1,0 +1,38 @@
+body {
+    background-color: #F3DFC1; /* Champagne */
+    color: #00120B; /* Night */
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    background-color: #481620; /* Chocolate cosmos */
+}
+.navbar-brand, .nav-link {
+    color: #F3DFC1 !important; /* Champagne */
+}
+.hero {
+    background-color: #f3dfc1; /* Dim gray */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F3DFC1; /* Champagne */
+    background-image: url('logo.png');
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero h1 {
+    font-size: 4rem;
+}
+.card {
+    background-color: #481620; /* Tyrian purple */
+    color: #F3DFC1; /* Champagne */
+}
+.btn-primary {
+    background-color: #00120B; /* Night */
+    border-color: #00120B; /* Night */
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
