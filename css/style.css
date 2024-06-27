@@ -1,0 +1,103 @@
+*{
+    font-family: "Montserrat";
+}
+
+header {
+    background-color: #481620;
+}
+
+body {
+    background-color: #f3dfc1;
+}
+
+.btn-date {
+    background-color: #481620;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #481620;
+    border: none;
+    
+}
+
+.btn-danger:hover {
+    background-color: #180609;
+}
+
+ .btn-danger:checked {
+    background-color: #481620;
+    border: #481620;
+}
+
+.btn-date:hover{
+    background-color: #180609;
+}
+
+.bg-cine1{
+    background-color: #481620;
+}
+
+.bg-cine2{
+    background-color: #f3dfc1;
+}
+
+.navbar-toggler img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 30px; /* Ajuste o tamanho conforme necessário */
+}
+
+.time-slot {
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logocabecalho {
+    width: 100px;
+    height: 100%;
+}
+
+        .btn-date {
+          width: 60px;
+          height: 60px;
+          margin: 5px;
+          display: inline-block;
+        }
+        #date-cards-container {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        .movie-card {
+          border: 1px solid transparent;
+          border-radius: 5px;
+          padding: 10px;
+          cursor: pointer;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .movie-card.selected {
+          border: 5px solid #481620;
+          border-radius: 5px;
+        }
+        .movie-poster {
+          width: 100%;
+          height: auto;
+        }
+        .confirm-container {
+          display: none;
+          width: 100%;
+          text-align: center;
+          margin-top: 10px;
+        }
+        .movie-card.selected .confirm-container {
+          display: block;
+        }
+        #confirm-button {
+          display: none;
+          margin-top: 20px;
+        }
